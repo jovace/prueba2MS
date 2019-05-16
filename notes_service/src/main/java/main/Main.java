@@ -8,7 +8,7 @@ import org.springframework.stereotype.Controller;
 @SpringBootApplication
 public class Main {
     private static int seed;
-    public static void main(String[] args){
+    public static void main(String[] args) throws Exception{
         seed=(int)(Math.random()*256);
         SpringApplication.run(Main.class, args);
     }
