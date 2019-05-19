@@ -15,6 +15,6 @@ public class LoginController {
     @Scope("request")
     @ResponseBody
     public String ping(@RequestParam(name="info") String info){
-        return info+" Seed: "+Main.getSeed();
+        return info+"\n Login->Seed: "+Main.getSeed();
     }
 }
