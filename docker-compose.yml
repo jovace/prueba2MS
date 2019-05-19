@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  login:
+    image: jorgen21/pruebams2_login_service
+    build: .
+    ports:
+      - "5000:5000"
+  notes:
+    image: jorgen21/pruebams2_notes_service
+    build: .
+    ports:
+      - "5001:5001"

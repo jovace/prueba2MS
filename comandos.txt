@@ -1,0 +1,76 @@
+docker build --label PruebaMS2_login_service
+   3 docker build --label PruebaMS2_login_service .
+   4 docker pull alpine
+   5 docker build --label PruebaMS2_login_service .
+   6 docker build --label PruebaMS2_login_service .
+   7 docker build --label PruebaMS2_login_service .
+   8 docker build --label PruebaMS2_login_service .
+   9 docker build --label PruebaMS2_login_service .
+  10 docker build --label PruebaMS2_login_service .
+  11 docker build --label PruebaMS2_login_service .
+  12 docker build --label PruebaMS2_login_service .
+  13 docker build --label PruebaMS2_login_service .
+  14 docker build --label PruebaMS2_login_service .
+  15 docker image list
+  16 docker -h
+  17 docker image ps
+  18 docker image ls
+  19 docker build -t PruebaMS2_login_service .
+  20 docker build -t pruebams2_login_service .
+  21 docker image ls
+  22 docker build -t jorgen21/pruebams2_login_service .
+  23 docker image ls
+  24 docker image -h
+  25 docker image prune
+  26 docker image -h
+  27 docker image rm *
+  28 docker image rm
+  29 docker image rm --help
+  30 docker image ls
+  31 docker rmi $(docker images -q)
+  32 docker ps
+  33 docker image ls
+  34 docker rmi 24d*
+  35 docker rmi 24dff932bf57
+  36 docker ps --help
+  37 docker ps -a
+  38 docker image ls
+  39 docker rm $(docker ps -a -q)
+  40 docker rmi $(docker images -q)
+  41 docker image ls
+  42 docker rmi pruebams2_login_service
+  43 docker image ls
+  44 docker rmi ids
+  45 docker build -t jorgen21/pruebams2_notes_service .
+  46 docker image --help
+  47 docker image ls
+  48 docker image push jorgen21/pruebams2_notes_service
+  49 docker image push jorgen21/pruebams2_login_service
+  50 docker-compose up -d
+  51 docker restart
+  52 docker container ls
+  53 docker container ls
+  54 docker container ls
+  55 docker container ls
+  56 docker container ls
+  57 docker-compose up -d
+  58 docker container ls
+  59 docker-compose ps
+  60 docker-compose down --volumes
+  61 docker-compose push
+  62 docker stack deploy --compose-file docker-compose.yml pruebaMS2
+  63 docker stack services pruebaMS2
+  64 docker service scale login=3
+  65 docker service pruebaMS2-scale login=3
+  66 docker service pruebaMS2-scale login=3
+  67 docker service scale pruebaMS2-login=3
+  68 docker service ps
+  69 docker service ls
+  70 docker service scale pruebaMS2_login=3
+  72 docker stack rm pruebaMS2
+  73 docker service ls
+  74 docker swarm leave
+  75 docker ps
+  76 docker swarm ps
+  77 docker swarm leave -f
+  78 docker ps

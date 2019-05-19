@@ -25,12 +25,12 @@ RUN apt-get install git-core -y
 RUN mkdir pruebaMS2 && cd pruebaMS2
 
 RUN git clone -b master https://github.com/jovace/prueba2MS.git
-WORKDIR /prueba2MS/login_service
+WORKDIR /prueba2MS/notes_service
 RUN rm -rf rm -rf ~.m2/repository
 RUN mvn install
 
 #
 # Expose port 5000
-EXPOSE 5000
+EXPOSE 5001
 
-CMD ["java","-jar","./target/LoginService-1.0-SNAPSHOT-spring-boot.jar","&"]
+CMD ["java","-jar","./target/NotesService-1.0-SNAPSHOT-spring-boot.jar","&"]
